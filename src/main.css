@@ -1,4 +1,4 @@
 #landing
 {
-  background-image: image("src/beans.jpg");
+  background-image: url("beans.jpg");
 }
