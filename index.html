@@ -12,11 +12,23 @@
     <h1>Coffee</h1>
 
  <ul class="nav nav-tabs list-unstyled">
-    <li class="active"><a href="#Latte">Latte</a></li>
-    <li><a href="#Cappuccino">Cappuccino</a></li>
-    <li><a href="#Americano">Americano</a></li>
-    <li><a href="#Drak">The Dark Stuff</a></li>
+    <li class="active"><a data-toggle="tab" href="#Latte">Latte</a></li>
+    <li><a data-toggle="tab" href="#Cappuccino">Cappuccino</a></li>
+    <li><a data-toggle="tab" href="#Americano">Americano</a></li>
+    <li><a data-toggle="tab" href="#Drak">The Dark Stuff</a></li>
  </ul>
+
+ <div class="tab-content">
+   <div id="Latte" class="tab-pane fade in active">
+     <h2>Latte</h2>
+     <p>description of drink</p>
+     <img src="src/beans.jpg">
+   </div>
+   <div id="Cappuccino" class="tab-pane fade"></div>
+   <div id="Americano" class="tab-pane fade"></div>
+   <div id="Drak" class="tab-pane fade"></div>
+ </div>
+
 
   <a href="./pages/contact.html">Contact Us</a>
   <a href="./pages/about_us.html">Find out about us</a>
